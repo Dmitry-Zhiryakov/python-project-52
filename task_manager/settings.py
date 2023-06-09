@@ -29,7 +29,15 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'webserver',
+    'localhost',
+    '127.0.0.1',
+    '0.0.0.0',
+    'python-project-52-production-1b21.up.railway.app',
+]
+
+'.localhost', '127.0.0.1'
 
 
 # Application definition
