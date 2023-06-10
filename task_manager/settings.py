@@ -37,9 +37,6 @@ ALLOWED_HOSTS = [
     'python-project-52-production-1b21.up.railway.app',
 ]
 
-'.localhost', '127.0.0.1'
-
-
 # Application definition
 
 INSTALLED_APPS = [
