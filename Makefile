@@ -7,3 +7,5 @@ dev:
 start:
 	pip install setuptools
 	gunicorn task_manager.wsgi
+
+.PHONY: install
