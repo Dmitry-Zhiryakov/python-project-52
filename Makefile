@@ -6,5 +6,3 @@ dev:
 
 start:
 	gunicorn task_manager.wsgi
-
-.PHONY: install
